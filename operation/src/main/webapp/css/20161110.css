@@ -1,0 +1,109 @@
+.qgfhsq.qgfhsq-box {
+  margin-top: 30px; }
+.qgfhsq .panel {
+  border-top-width: 0;
+  border-radius: 0; }
+.qgfhsq .panel-heading{
+  height: auto;
+}
+
+button.btn.btn-primary.applyAsChange {
+    margin: 0px;
+}
+
+/* .qgfhsq .pagination-info {
+  display: none; } */
+.qgfhsq .fixed-table-container {
+  border: 0; }
+.qgfhsq .btn {
+  margin: 8px 15px; }
+.qgfhsq .glyphicon-box {
+  position: relative;
+  display: inline-block;
+  margin: 0 5px; }
+  .qgfhsq .glyphicon-box .glyphicon {
+    font-size: 30px;
+    cursor: pointer; }
+  .qgfhsq .glyphicon-box .glyphicon-edit, .qgfhsq .glyphicon-box .glyphicon-info-sign {
+    color: #428bca; }
+  .qgfhsq .glyphicon-box .glyphicon-info-sign:hover + .more-info {
+    display: block; }
+  .qgfhsq .glyphicon-box .more-info {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    padding: 10px 10px 0;
+    width: 300px;
+    border: 1px solid #dddddd;
+    text-align: left;
+    background: #ffffff;
+    z-index: 100; }
+    .qgfhsq .glyphicon-box .more-info::before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      right: -20px;
+      width: 0;
+      height: 0;
+      border: 10px solid #dddddd;
+      border-color: transparent transparent transparent #dddddd; }
+    .qgfhsq .glyphicon-box .more-info::after {
+      content: "";
+      position: absolute;
+      top: 5px;
+      right: -19px;
+      width: 0;
+      height: 0;
+      border: 10px solid #ffffff;
+      border-color: transparent transparent transparent #ffffff; }
+.qgfhsq td {
+  word-break: break-all;
+  vertical-align: middle !important; }
+.qgfhsq .nav-tabs .panel-heading {
+  padding-top: 0;
+  padding-bottom: 0; }
+.qgfhsq .nav-tabs .btn {
+  margin-top: 3px;
+  margin-bottom: 0; }
+.qgfhsq .tab-content .table {
+  margin-bottom: 0; }
+.qgfhsq .sellout {
+  color: #ff0000; }
+.qgfhsq .update-title-icon, .qgfhsq .update-content-icon {
+  position: relative; }
+  .qgfhsq .update-title-icon::before, .qgfhsq .update-content-icon::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: #ff0000; }
+.qgfhsq .update-title-icon::before {
+  top: 25%;
+  right: 5%; }
+.qgfhsq .update-content-icon::before {
+  top: 45%;
+  left: 4.5%; }
+
+.qgfhsq-position {
+  position: relative; }
+  .qgfhsq-position .list-group {
+    display: none;
+    position: absolute;
+    top: 33px;
+    right: 15px;
+    left: 15px;
+    z-index: 100; }
+
+.qgfh-outbox {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; }
+  .qgfh-outbox .qgfh-inbox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+

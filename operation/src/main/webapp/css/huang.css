@@ -1,0 +1,1449 @@
+/*----------------- -驾车行为 */
+
+.panel.panel-default.imeiSingle.track-device {
+    height: 400px;
+}
+
+
+.video {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.device-info.evice-info111 {
+    float: left;
+    /* padding: 0 101px 0 0px; */
+}
+.device-info.device-info222 {
+    margin-left: 671px;
+}
+.car-sumtrave {
+    margin-top: 67px;
+}
+
+.car-title {
+    float: left;
+    padding: 0 237px 0 0px;
+}
+
+.wrapper.user-car-content {
+    margin-top: 40px;
+}
+img#video-1 {
+    height: 214px;
+}
+img#video-2 {
+    height: 214px;
+}
+img#video-3 {
+    height: 214px;
+}
+img#video-4 {
+    height: 214px;
+}
+img#video-0 {
+    height: 214px;
+}
+
+.car-preferences {
+   margin-right: 535px;
+}
+
+.data-box-car-content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+     height: 600px; 
+}
+
+
+.car-diver{
+   width: 100%;
+   height: 100%;
+	
+}
+
+.preferences .user-preferences-bodyer {
+    position: absolute;
+    top: 52px;
+    left: -92px;
+    width: 100%;
+    font-size: 16px;
+    z-index: 999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*管理用户界面 */
+ .userEdit1 label {
+    margin-left: 40px;
+    padding: 0px 27px 0 15px;
+}
+
+
+
+
+
+
+
+
+.user-three {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0 0px 0 601px;
+}
+
+
+.user-table1 {
+    width: 276px;
+    height: 25px;
+    /* background: beige; */
+  
+    padding: 0 -40px;
+    margin-right: -180px;
+    font-size: 14px;
+}
+
+.user-table1  li
+{
+  float: left;
+  list-style-type:none;
+      padding: 0 0px 0 20px;
+}
+
+
+
+.wrapper .user-first  li {
+    float: left;
+    list-style-type:none;
+}
+
+/* .wrapper {
+    margin-top: 80px;
+} */
+.user-first {
+  
+    font-size: 16px;
+    margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height:60px;
+    
+}
+
+.second {
+    width: 70%;
+    margin: auto;
+}
+.user-second {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+
+
+
+select#city3 {
+    width: 100px;
+    height: 31px;
+}
+
+li.user {
+    padding: 0 10px 0 10px;
+}
+/* button#button1 {
+    margin: 0 144px 0 0px;
+    width: 100px;
+    background-color: #32b1ea;
+} */
+
+
+
+/*菜单栏*/
+
+#topnav.navbar-bluegray .yamm .navbar-nav  .menu1 {
+    color: #eceff1;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+/*月份按钮 */
+
+.user_month1{
+background-color: #ffffff;
+}
+
+
+.user_month3 a{
+    background-color: #eeeeee;
+}
+
+
+
+/* 模态动态框 */
+.dialog {
+    position: fixed;
+    _position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 199998;
+    opacity: .3;
+    filter: alpha(opacity=50);
+    background: #000000;
+    display: block;
+}
+.loading {
+     z-index: 199998;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top:300px;
+	 background: #000000;
+    
+}
+
+
+
+.static-sidebar-wrapper {
+	/* position:fixed;	 */
+	
+}
+
+.widget-body {
+	position: fixed;
+	width: 300px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.table2 {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-family: "Open Sans", "Segoe UI", "Droid Sans", Tahoma, Arial,
+		sans-serif;
+}
+
+h2 {
+	text-align: left;
+}
+
+.table2 {
+	font-size: 20px;
+}
+
+.head1 {
+	background: #f1f1f1;
+}
+
+.head2 {
+	background: #8f8f8f;
+	text-align: left;
+}
+
+td {
+	text-align: center;
+}
+
+th {
+	word-break: keep-all;
+}
+
+.wang3 ul li {
+	float: left;
+	list-style: outside none none;
+	margin-left: 40px;
+}
+
+.wang3 {
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 60%;
+	margin-top: 100px;
+}
+
+.wang4 {
+	/* 
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	 */
+	height: 400px;
+}
+/*  display: table;
+  width: 100%;
+  table-layout: fixed;
+  overflow: auto;
+  height: 100%;
+  position: relative;
+  transition: transform 0.3s; */
+.data-box {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 95%;
+}
+
+.user-datainfo {
+	margin-left: auto;
+	margin-right: auto;
+	/* 	text-align: center; */
+	width: 100%;
+}
+
+.area_rili {
+	height: 60%;
+}
+
+.homeMap {
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 90%;
+	overflow-y: auto;
+}
+
+.homeMap1 {
+	/* height: 500px; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 90%;
+	overflow-y: auto;
+}
+
+.homeMap1 div img {
+	width: 100%;
+	heigh: 100%;
+}
+
+.data-box-content {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	/*  height:400px;   */
+}
+
+.area-head {
+	background: #8f8f8f;
+	text-align: left;
+}
+
+.area-left {
+	float: left;
+	width: 50%;
+	height: 600px;
+}
+
+.area-right1 {
+	float: left;
+	width: 50%;
+	height: 600px;
+}
+
+.acontainer {
+	height: 600px;
+}
+
+.acontainer1 {
+	height: 600px;
+}
+
+.acontainer2 {
+	height: 400px;
+}
+
+/* .area-right2{
+	 float: left;
+     width: 20%;
+     height:600px;
+	
+} */
+.table3 {
+	width: 100%;
+	margin-top: 200px;
+}
+
+.table3 tr {
+	height: 30px;
+}
+
+.a {
+	height: 15px;
+	width: 15px;
+	background-color: #00ff40;
+	float: left;
+}
+/* 用户界面 */
+.user_month ul li {
+	float: left;
+	/* 	border: 1px solid #cdcdcd; */
+}
+
+.user_month ul {
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.user_month {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 60%;
+	text-align: center;
+}
+
+.allmap1 {
+	float: left;
+	width: 18%;
+	height: 273px;
+	overflow: hidden;
+	margin: 10px;
+	font-family: "微软雅黑";
+}
+
+.maplabel {
+	margin: 0px;
+	font-family: "微软雅黑";
+	height: 20px;
+	line-height: 18px;
+	font-size: 17px;
+}
+
+select {
+	margin: 0px;
+	padding: 0px;
+	border: 0px solid #cdcdcd;
+}
+
+/*用户轨迹选择月份*/
+.pagination li select {
+	height: 42px;
+	border: 1px solid #e0e0e0;
+	color: #03a9f4;
+}
+
+/*   .device-info {
+   padding: 7px; 
+    font-size: 18px;
+    margin:0px;
+   
+   
+}
+ .device-info1{
+   margin-left:50px;
+   
+   
+ }
+
+.user_buildtime ,.user_imei ,.user_model{
+	
+	  margin-left:-130px;
+}
+.userdevice_datainfo{
+	 margin-top:30px;
+	 border: 2px dashed #bfbfbf;
+	
+ */
+}
+
+/* 屏幕适配 */
+/* 1280分辨率以上（大于1200px） */
+@media screen and (min-width:1200px){
+  
+}
+
+/*  1100分辨率（大于960px，小于1199px）
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+    
+} */ 
+
+/*  880分辨率（大于768px，小于959px）*/
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+	.allmap1 {
+    float: left;
+    width: 23%;
+    height: 268px;
+    overflow: hidden;
+    margin: 10px;
+    font-family: "微软雅黑";
+}
+ .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px; 
+}
+.userinfo-data .head {
+    font-size: 15px;
+    color: #666666;
+}
+
+.data-box {
+    margin-top: 10px;
+    
+}
+.data-box {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.userinfo-data .usda-cell {
+    position: relative;
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #cdcdcd;
+    font-size: 15px;
+    text-align: center;
+}
+
+   .homeMap {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+     margin-top: 8px; 
+     width: 98%; 
+    overflow-y: auto;
+} 
+#allmap {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: solid 1px gray;
+}
+  
+ .data-box .data-box-title {
+    position: relative;
+    padding-left: 50px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    background: #d1d1d1;
+    text-align: left;
+} 
+.data-box .data-box-title:before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 12px;
+    width: 30px;
+    height: 30px;
+    /* background: url(../images/user-icon.png) no-repeat; */
+}   
+   
+.preferences.project .preferences-head, .preferences.activeusers .preferences-head {
+    padding: 0 30px 0 0px;
+}
+.preferences .preferences-head {
+    position: relative;
+    margin-top: 0px;
+    font-size: 15px;
+}  
+   
+.preferences {
+    overflow: hidden;
+    height: 40px;
+    cursor: pointer;
+}  
+   
+.preferences .preferences-bodyer {
+    position: absolute;
+    top: 40px;
+    left: -45px;
+    width: 150px;
+    font-size: 15px;
+    z-index: 999;
+}
+.area .preferences-bodyer {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 180px;
+    font-size: 15px;
+    z-index: 999;
+} 
+.btn.clearfix {
+    padding: 0 18px 0 18px;
+}
+.preferences.time .preferences-bodyer {
+    width: 320px;
+} 
+  
+  .preferences.area .preferences-head {
+    padding: 0 40px 0 0px;
+} 
+.preferences.time .preferences-head {
+    padding: 0 40px 0 0px;
+}
+
+ 
+}
+
+/*  720分辨率（大于480px，小于767px）*/
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+}
+
+/* 440分辨率以下（小于479px） */
+@media only screen and (max-width: 479px) {
+ li
+{
+list-style-type:none;
+} 
+.btn.clearfix {
+    padding: 0 0px 0 15px;
+}
+  
+  /*大容器间隔 */
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px; 
+}
+  
+  
+  .userinfo-data .head {
+    font-size: 9px;
+    color: #666666;
+}
+  
+.homeMap {
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+     margin-top: 1px; 
+     width: 100%; 
+    overflow-y: auto;
+} 
+#allmap {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: solid 1px gray;
+}
+.userinfo-data .head {
+    font-size: 13px;
+    color: #666666;
+}
+/* 头  */
+
+.trend .data-box-title {
+    position: relative;
+    padding-left: 30px;
+    height: 32px;
+    line-height: 30px;
+    font-size: 18px;
+    background: #d1d1d1;
+    text-align: left;
+}
+/* 图标 */
+.data-box .data-box-title:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+/*     background: url(../images/user-icon.png) no-repeat; */
+}
+
+.userinfo-data .usda-cell {
+    position: relative;
+    display: table-cell;
+    padding: 3px;
+    border: 1px solid #cdcdcd;
+    font-size: 13px;
+    text-align: center;
+}
+  
+.userinfo-data .usda-cell p {
+     margin: 0; 
+}
+  
+.data-box {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;   
+}  
+ 
+  /* 用户界面适配 */
+  .user-datainfo {
+    /* margin-top: 95px; */
+    padding: 0 0px;
+    font-size: 13px;
+}
+.user-datainfo .device-info {
+    border: 2px dashed #bfbfbf;
+    margin-top: 4px;
+    padding: 5px;
+} 
+  
+  
+  /*  累计用户趋势*/
+  .trend .data-box-title span{
+  display: none;
+  }
+  
+  .preferences {
+    overflow: hidden;
+    height: 30px;
+    cursor: pointer;
+}
+ .preferences.project .preferences-head, .preferences.activeusers .preferences-head {
+    padding: 0 10px 0 0px;
+}
+.preferences .preferences-head {
+    position: relative;
+    margin-top: 0px;
+    font-size: 10px;
+} 
+
+.preferences.area .preferences-head {
+    padding: 0 10px 0 0px;
+}
+.preferences.time .preferences-head {
+    padding: 0 10px 0 0px;
+}
+
+/*下拉框 */
+.preferences .preferences-bodyer {
+    position: absolute;
+    top: 30px; 
+    left: -42px;
+    /*  width: 150px;  */
+    font-size: 10px;
+    z-index: 999;
+}
+ .activeusers .preferences-bodyer {
+    width: 100px;
+}
+
+
+ .preferences.activeusers .project-list li {
+    padding: 0 5px 0 5px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+     text-align: center; 
+}
+  
+ .preferences.area .area-list select {
+    display: block;
+    margin: 5px auto 0;
+ /*    width: 150px; */
+    height: 30px;
+    border-color: #e6e6e6;
+} 
+ .preferences.area .btn {
+    margin: 10px auto;
+} 
+.preferences.area .btn a {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+} 
+.preferences.area .btn a.confirm {
+    margin-left: 10px;
+    color: #ffffff;
+    background: #1463ce;
+}
+
+
+.preferences.area .preferences-bodyer {
+    width: 180px;
+}
+
+.preferences.area .btn a.cancel {
+    margin-left: 10px;
+    color: #333333;
+    background: #eeeeee;
+}
+.preferences.area .btn a {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+/* 日期 */
+.preferences.time .preferences-bodyer {
+    width: 240px;
+}
+.preferences.time .time-list {
+    width: 100%;
+    padding: 0 10px;
+    font-size: 10px;
+}
+.preferences.time .btn a {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+    text-align: center;
+}
+ .preferences.time .btn {
+    margin: 10px auto;
+    width: 200px;
+} 
+/* 地图 */
+.distribution .data-box-title {
+    position: relative;
+    padding-left: 50px;
+    height: 32px;
+    line-height: 30px;
+    font-size: 10px;
+    background: #d1d1d1;
+    text-align: left;
+}
+.preferences.time2 .preferences-bodyer {
+    width: 280px;
+    left: -125px;   
+}
+.area-left {
+		width: 100%;
+		height: 300px;
+	}
+	.area-right1 {
+		width: 100%;
+		height: 520px;
+	}
+	.acontainer {
+		height: 100%;
+	}
+	.acontainer1 {
+		height: 100%;
+	}
+	.wang4 {
+		height: 200px;
+	}
+	.acontainer2 {
+		height: 200px;
+	}
+}
+
+
+
+/* @media screen and (max-width: 1300px) {
+	.allmap1 {
+	float: left;
+	width: 20%;
+	height: 276px;
+	overflow: hidden;
+	margin: 10px;
+	font-family: "微软雅黑";
+}
+
+.maplabel {
+	margin: 0px;
+	font-family: "微软雅黑";
+	height: 10px;
+	line-height: 10px;
+	font-size: 10px;
+}
+
+	
+	.data-box .data-box-title {
+		position: relative;
+		padding-left: 50px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 15px;
+		background: #d1d1d1;
+		text-align: left;
+	}
+	.data-box .data-box-title:before {
+		content: "";
+		position: absolute;
+		top: 0px;
+		left: 10px;
+		width: 30px;
+		height: 30px;
+		background: url(../images/user-icon.png) no-repeat;
+	}
+	.data-box {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 100%;
+	}
+	.usda-row {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.userinfo-data .usda-cell {
+		position: relative;
+		display: table-cell;
+		padding: 2px;
+		border: 1px solid #cdcdcd;
+		font-size: 5px;
+		text-align: center;
+	}
+	.userinfo-data .head {
+		font-size: 5px;
+		color: #666666;
+	}
+	.area-left {
+		width: 100%;
+		height: 300px;
+	}
+	.area-right1 {
+		width: 100%;
+		height: 400px;
+	}
+	.acontainer {
+		height: 100%;
+	}
+	.acontainer1 {
+		height: 100%;
+	}
+	.wang4 {
+		height: 200px;
+	}
+	.acontainer2 {
+		height: 200px;
+	}
+	 整体趋势组件
+		.time {
+		 display: none; 
+	}
+	.preferences-bodyer {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		font-size: 16px;
+		z-index: 999;
+		top: 0px;
+		overflow: hidden;
+	}
+	.area {
+		height: 30px;
+	}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+@media screen and (max-width: 1200px) {
+	
+		.allmap1 {
+	float: left;
+	width: 20%;
+	height: 200px;
+	overflow: hidden;
+	margin: 10px;
+	font-family: "微软雅黑";
+}
+
+.maplabel {
+	margin: 0px;
+	font-family: "微软雅黑";
+	height: 10px;
+	line-height: 10px;
+	font-size: 10px;
+}
+	
+	
+	
+	.data-box .data-box-title {
+		position: relative;
+		padding-left: 50px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 15px;
+		background: #d1d1d1;
+		text-align: left;
+	}
+	.data-box .data-box-title:before {
+		content: "";
+		position: absolute;
+		top: 0px;
+		left: 10px;
+		width: 30px;
+		height: 30px;
+		background: url(../images/user-icon.png) no-repeat;
+	}
+	.data-box {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 100%;
+	}
+	.usda-row {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.userinfo-data .usda-cell {
+		position: relative;
+		display: table-cell;
+		padding: 2px;
+		border: 1px solid #cdcdcd;
+		font-size: 5px;
+		text-align: center;
+	}
+	.userinfo-data .head {
+		font-size: 5px;
+		color: #666666;
+	}
+	.area-left {
+		width: 100%;
+		height: 300px;
+	}
+	.area-right1 {
+		width: 100%;
+		height: 400px;
+	}
+	.acontainer {
+		height: 100%;
+	}
+	.acontainer1 {
+		height: 100%;
+	}
+	.wang4 {
+		height: 200px;
+	}
+	.acontainer2 {
+		height: 200px;
+	}
+	 整体趋势组件
+	.time {
+		display: none;
+	}
+	.preferences-bodyer {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		font-size: 16px;
+		z-index: 999;
+		top: 0px;
+		overflow: hidden;
+	}
+	.area {
+		height: 30px;
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+.allmap1 {
+	float: left;
+	width: 43%;
+	height: 276px;
+	overflow: hidden;
+	margin: 10px;
+	font-family: "微软雅黑";
+}
+
+.maplabel {
+	margin: 0px;
+	font-family: "微软雅黑";
+	height: 10px;
+	line-height: 10px;
+	font-size: 10px;
+}
+	
+	.data-box .data-box-title {
+		position: relative;
+		padding-left: 50px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 15px;
+		background: #d1d1d1;
+		text-align: left;
+	}
+	.data-box .data-box-title:before {
+		content: "";
+		position: absolute;
+		top: 0px;
+		left: 10px;
+		width: 30px;
+		height: 30px;
+		background: url(../images/user-icon.png) no-repeat;
+	}
+	.data-box {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 100%;
+	}
+	.usda-row {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.userinfo-data .usda-cell {
+		position: relative;
+		display: table-cell;
+		padding: 2px;
+		border: 1px solid #cdcdcd;
+		font-size: 5px;
+		text-align: center;
+	}
+	.userinfo-data .head {
+		font-size: 5px;
+		color: #666666;
+	}
+	.area-left {
+		width: 100%;
+		height: 300px;
+	}
+	.area-right1 {
+		width: 100%;
+		height: 400px;
+	}
+	.acontainer {
+		height: 100%;
+	}
+	.acontainer1 {
+		height: 100%;
+	}
+	.wang4 {
+		height: 200px;
+	}
+	.acontainer2 {
+		height: 200px;
+	}
+	 整体趋势组件
+	.time {
+		display: none;
+	}
+	.preferences-bodyer {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		font-size: 16px;
+		z-index: 999;
+		top: 0px;
+		overflow: hidden;
+	}
+	.area {
+		height: 30px;
+		display: none;
+	}
+	.user-datainfo .device-info {
+		border: 2px dashed #bfbfbf;
+		margin-top: 10px;
+		padding: 10px;
+	}
+	.user-datainfo {
+		padding: 0 px;
+		font-size: 15px;
+	}
+	
+	
+	
+}
+
+@media screen and (max-width: 700px) {
+.allmap1 {
+	float: left;
+	width: 43%;
+	height: 276px;
+	overflow: hidden;
+	margin: 10px;
+	font-family: "微软雅黑";
+}
+
+.maplabel {
+	margin: 0px;
+	font-family: "微软雅黑";
+	height: 10px;
+	line-height: 10px;
+	font-size: 10px;
+}
+	
+	.data-box .data-box-title {
+		position: relative;
+		padding-left: 50px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 15px;
+		background: #d1d1d1;
+		text-align: left;
+	}
+	.data-box .data-box-title:before {
+		content: "";
+		position: absolute;
+		top: 0px;
+		left: 10px;
+		width: 30px;
+		height: 30px;
+		background: url(../images/user-icon.png) no-repeat;
+	}
+	.data-box {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 100%;
+	}
+	.usda-row {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.userinfo-data .usda-cell {
+		position: relative;
+		display: table-cell;
+		padding: 2px;
+		border: 1px solid #cdcdcd;
+		font-size: 5px;
+		text-align: center;
+	}
+	.userinfo-data .head {
+		font-size: 5px;
+		color: #666666;
+	}
+	.area-left {
+		width: 100%;
+		height: 300px;
+	}
+	.area-right1 {
+		width: 100%;
+		height: 400px;
+	}
+	.acontainer {
+		height: 100%;
+	}
+	.acontainer1 {
+		height: 100%;
+	}
+	.wang4 {
+		height: 200px;
+	}
+	.acontainer2 {
+		height: 200px;
+	}
+	 整体趋势组件
+	.time {
+		display: none;
+	}
+	.preferences-bodyer {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		font-size: 16px;
+		z-index: 999;
+		top: 0px;
+		overflow: hidden;
+	}
+	.area {
+		height: 30px;
+		display: none;
+	}
+	.user-datainfo .device-info {
+		border: 2px dashed #bfbfbf;
+		margin-top: 10px;
+		padding: 10px;
+	}
+	.user-datainfo {
+		padding: 0 px;
+		font-size: 15px;
+	}
+	
+	
+	
+}
+@media screen and (max-width: 500px) {
+.data-box {
+    margin-top: 5px;
+}
+	
+.homeMap {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+     margin-top: 5px; 
+     width: 100%; 
+    overflow-y: auto;
+}	
+.user_month {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+     width: 100%; 
+    text-align: center;
+}	
+.pagination li select {
+    height: 25px;
+    border: 1px solid #e0e0e0;
+    color: #03a9f4;
+}
+.user_month ul {
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+	
+.allmap1 {
+	float: left;
+	width: 90%;
+	height: 240px;
+	overflow: hidden;
+	margin: 10px;
+	font-family: "微软雅黑";
+}
+
+.maplabel {
+	margin: 0px;
+	font-family: "微软雅黑";
+	height: 10px;
+	line-height: 10px;
+	font-size: 10px;
+}
+	
+	.data-box .data-box-title {
+		position: relative;
+		padding-left: 50px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 15px;
+		background: #d1d1d1;
+		text-align: left;
+	}
+	.data-box .data-box-title:before {
+		content: "";
+		position: absolute;
+		top: 0px;
+		left: 10px;
+		width: 30px;
+		height: 30px;
+		background: url(../images/user-icon.png) no-repeat;
+	}
+	.data-box {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 100%;
+	}
+	.usda-row {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.userinfo-data .usda-cell {
+		position: relative;
+		display: table-cell;
+		padding: 2px;
+		border: 1px solid #cdcdcd;
+		font-size: 5px;
+		text-align: center;
+	}
+	.userinfo-data .head {
+		font-size: 5px;
+		color: #666666;
+	}
+	.area-left {
+		width: 100%;
+		height: 300px;
+	}
+	.area-right1 {
+		width: 100%;
+		height: 400px;
+	}
+	.acontainer {
+		height: 100%;
+	}
+	.acontainer1 {
+		height: 100%;
+	}
+	.wang4 {
+		height: 200px;
+	}
+	.acontainer2 {
+		height: 200px;
+	}
+	 整体趋势组件
+	.preferences {
+		display: none;
+	}
+	.preferences-bodyer {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		font-size: 16px;
+		z-index: 999;
+		top: 0px;
+		overflow: hidden;
+	}
+	.area {
+		height: 30px;
+		display: none;
+	}
+	.user-datainfo .device-info {
+		border: 2px dashed #bfbfbf;
+		margin-top: 10px;
+		padding: 0px;
+	}
+	.user-datainfo {
+	 padding: 0 0px;
+		font-size: 15px;
+	}
+	.account-box .login-btn {
+    margin-top: 20px;
+}
+	
+	
+	
+}
+ */
+
+
+
+	

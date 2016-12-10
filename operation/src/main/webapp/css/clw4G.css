@@ -1,0 +1,545 @@
+
+
+
+
+form.navbar-form.navbar-right {
+    height: 30px;
+}
+ul#first-search-fuzzy3 {
+    top: 0px;
+}
+
+.qgfh-inbox {
+    padding: 40px;
+}
+
+
+
+
+
+
+
+/* 显示问号 */
+.fnTips {
+  position: absolute;
+  display: inline;
+  padding-left: 10px;
+}
+.fnTips .fnTipsInfo {
+  display: none;
+  font-size: 12px;
+  padding: 5px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+.fnTips:hover .fnTipsInfo {
+  display: block;
+}
+
+label#imei {
+    font-size: 14px;
+    color: blanchedalmond;
+}
+.panel-title label#grade {
+    font-size: 14px;
+    color: blanchedalmond;
+}
+
+label#identity{
+    font-size: 14px;
+    color: blanchedalmond;
+}
+
+span.lead {
+    font-size: 14px;
+}
+
+
+
+
+
+/*动态loading  */
+.ecCharLoading1{ 
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	background: url(../images/loading.gif) center no-repeat rgba(255, 255, 255, 0.8);
+	background-size: 64px 64px;
+	z-index: 1000;
+}
+
+
+/* .main{
+	padding: 0 45px;
+} */
+
+.navbar .container-fluid{
+
+		padding: 0 45px;
+	
+}
+
+
+
+
+.ecCharLoading{ 
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	background: url(../images/loading.gif) center no-repeat rgba(255, 255, 255, 0.8);
+	background-size: 64px 64px;
+	z-index: 1000;
+}
+
+@-webkit-keyframes ecCharLoadingAn {
+	0%{
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes ecCharLoadingAn {
+	0%{
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes ecCharLoadingAn {
+	0%{
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes ecCharLoadingAn1 {
+	0%{
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes ecCharLoadingAn1 {
+	0%{
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes ecCharLoadingAn1 {
+	0%{
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+/*动态loading */
+
+
+
+
+
+.panel-heading {
+    height: 45px;
+}
+.input-group {
+    float: left;
+    margin-left: 117px;
+}
+
+ul#first-search-fuzzy1 {
+    right: 216px;
+    top: 49px;
+    padding: 7px 2px 7px 9px;
+    font-size: 17px;
+}
+ul#second-search-fuzzy1 {
+    right: 182px;
+    top: 49px;
+    padding: 7px 2px 7px 9px;
+    font-size: 17px;
+}
+
+.panel.panel-default.imeiSingle.track-device {
+  /*   height: 400px; */
+}
+.form-group.sbglTopSearch {
+    width: 250px;
+}
+
+.maplabel {
+	margin: 0px;
+	font-family: "微软雅黑";
+	height: 20px;
+	line-height: 18px;
+	font-size: 17px;
+}
+.maplabel2 {
+	margin: 0px;
+	font-family: "微软雅黑";
+	height: 20px;
+	line-height: 18px;
+	font-size: 17px;
+}
+
+
+
+/*轨迹地图 */
+.allmap1 {
+	float: left;
+	width: 20%;
+	height: 260px;
+	overflow: hidden;
+	margin: 10px;
+	font-family: "微软雅黑";
+}
+/* 模态动态框 */
+.dialog {
+    position: fixed;
+    _position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 199998;
+    opacity: .3;
+    filter: alpha(opacity=50);
+    background: #000000;
+    display: block;
+}
+.loading {
+     z-index: 199998;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top:300px;
+	 background: #000000;
+    
+}
+
+
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "\0020";
+  visibility: hidden;
+  height: 0;
+}
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  clear: both;
+}
+
+html, body {
+  min-width: 320px;
+  font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+.navbar {
+  padding: 10px 0;
+  min-height: 60px;
+}
+
+.navbar-brand {
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+@media (max-width: 945px) {
+  .navbar-header {
+    float: none;
+  }
+}
+@media (max-width: 440px) {
+  #logo {
+    margin-top: 6px;
+    width: 275px;
+  }
+}
+@media (max-width: 360px) {
+  #logo {
+    margin-top: 6px;
+    width: 250px;
+  }
+}
+.navbar {
+  margin-bottom: 0;
+}
+
+.sidebar {
+  display: none;
+  background-color: #f5f5f5;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    display: block;
+  }
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.table {
+  table-layout: fixed;
+}
+.table th, .table td {
+  text-align: center;
+}
+.table tr td:first-child a {
+  word-break: break-all;
+}
+
+.syyhzfList p {
+  margin-bottom: 0;
+}
+.syyhzfList .syyhzfSelect p {
+  line-height: 34px;
+}
+.syyhzfList .syyhzfSelect .dropdown-menu {
+  right: 0;
+}
+
+.qttjfxBox .panel-heading {
+  background: #ffffff;
+}
+.qttjfxBox .panel-body {
+  position: relative;
+  padding-top: 80%;
+}
+.qttjfxBox .panel-body .ecChartBox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.qttjfxBox > div {
+  margin-bottom: 15px;
+}
+
+.modal-dialog {
+  margin-top: 80px !important;
+}
+.modal-dialog .modalEchartsBody {
+  position: relative;
+  padding-top: 50%;
+}
+.modal-dialog .echartsBox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.modalDropdownSelectBox p {
+  line-height: 34px;
+}
+.modalDropdownSelectBox .dropdown {
+  margin-left: 20px;
+}
+.modalDropdownSelectBox .dropdown:first-child {
+  margin-left: 0;
+}
+.modalDropdownSelectBox .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+.modalDropdownSelectBox .timeSelect {
+  width: 300px;
+}
+.modalDropdownSelectBox .timeSelect li {
+  padding: 0 5px;
+}
+.modalDropdownSelectBox .timeSelect .form-control {
+  padding: 6px;
+  width: 28%;
+}
+
+.modalInfoP span {
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.imeiDetailsInfo {
+  margin-top: 20px;
+}
+.imeiDetailsInfo .panel-title span {
+  padding-left: 20px;
+}
+.imeiDetailsInfo .row {
+  font-size: 15px;
+}
+.imeiDetailsInfo .row > div {
+  padding: 10px;
+}
+
+.imeiSingle .echartsBox {
+  position: relative;
+  padding-top: 35%;
+}
+.imeiSingle .echartsBox .echartsBody, .imeiSingle .echartsBox .otherInfoBody {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.imeiSingle .echartsBox .otherInfoBody {
+  margin-top: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.imeiSingle .echartsBox .otherInfoBody .historyGj {
+  position: relative;
+  padding: 15px;
+}
+.imeiSingle .echartsBox .otherInfoBody .historyGj .time {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+.imeiSingle .echartsBox .otherInfoBody .historyGj .time p {
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.huifang td {
+  vertical-align: middle !important;
+}
+.huifang img {
+  display: block;
+  margin: 0 auto;
+  max-width: 40px;
+  min-width: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.pzjg {
+  padding-top: 20px;
+}
+
+.bdHisMapBox {
+  position: relative;
+  padding-top: 50%;
+}
+.bdHisMapBox .bdHisMapBody {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.sbgl {
+  margin-top: 20px;
+}
+.sbgl .list-group, .sbgl .form-group {
+  margin-bottom: 0;
+}
+.sbgl #sbglSidebar .panel-heading.active {
+  color: #428bca;
+}
+.sbgl #sbglSidebar .list-group-item.active a {
+  color: #ffffff;
+}
+.sbgl .glyphicon {
+  margin-right: 5px;
+}
+.sbgl .sbglTopSearch {
+  position: relative;
+  display: inline-block;
+}
+.sbgl .sbglTopSearch .form-control {
+  width: 78%;
+}
+.sbgl .sbglTopSearch .list-group {
+  display: none;
+  position: absolute;
+  top: 34px;
+  left: 0;
+  right: 0;
+}
+.sbgl .zhzl {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.sbgl .zhzlInfo .row {
+  padding: 10px 0;
+}
+
+.must {
+  margin-bottom: 0;
+  padding-top: 8px;
+  padding-bottom: 0;
+  font-size: 20px;
+  color: #ff0000;
+}
+
+.jinggao {
+  font-size: 40px;
+  color: #ff0000;
+}
+
+/*
+#dataShow tr td:first-child{
+	display: none;
+}
+*/

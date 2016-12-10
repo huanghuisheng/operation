@@ -1,0 +1,527 @@
+@charset "UTF-8";
+.account-box {
+  position: absolute;
+  top: 0;
+ right: 0;
+  bottom: 0; 
+  left: 0;
+  margin: auto;
+  padding: 50px 45px 60px;
+  width: 450px;
+  height: 555px;
+  border: 1px solid #e6e6e6;
+}
+.account-box .logo {
+  margin: 0 auto 30px;
+/*   padding-left: 18px;
+  width: 99px; */
+}
+.account-box h3 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+}
+.account-box .account-list {
+  position: relative;
+  margin-top: 25px;
+  height: 50px;
+  border: 1px solid #e6e6e6;
+}
+.account-box .account-list .account-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border-right: 1px solid #e6e6e6;
+}
+.account-box .account-list .account-icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  background: url(../images/account-icon.png) no-repeat;
+}
+.account-box .account-list .account-icon.username::before {
+  background-position: 0 0;
+}
+.account-box .account-list .account-icon.password::before {
+  background-position: -30px 0;
+}
+.account-box .account-list.cur .account-icon::before {
+  background-position-y: -30px;
+}
+.account-box .account-list input {
+  margin-left: 50px;
+  padding: 0 20px;
+  width: 86%;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+}
+.account-box .remember-pw {
+  position: relative;
+  margin-top: 10px;
+}
+.account-box .remember-pw input[type=checkbox] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 24px;
+  opacity: 0;
+}
+.account-box .remember-pw input[type=checkbox]:checked + .account-icon {
+  background: url(../images/account-icon.png) 3px -86px no-repeat;
+}
+.account-box .remember-pw .account-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #b0b0b0;
+  vertical-align: text-bottom;
+}
+.account-box .login-btn {
+  margin-top: 40px;
+}
+.account-box .login-btn button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  outline: 0;
+  border-width: 0;
+  text-align: center;
+  color: #ffffff;
+  background: #1463ce;
+}
+
+.bodyer {
+  margin-top: 50px;
+}
+
+.sidebar {
+ /*  width: 200px; */
+ /*  border: 1px solid #e6e6e6; */
+}
+
+.main {
+  /* margin-left: 230px; */
+}
+
+.siderbar-list > li {
+  position: relative;
+  border-top: 1px solid #e6e6e6;
+}
+.siderbar-list > li > a {
+  display: block;
+  padding-left: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-left: 8px solid #ffffff;
+  font-size: 18px;
+}
+.siderbar-list > li:first-child {
+  border-top: 0;
+}
+.siderbar-list > li:before {
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: 16px;
+  width: 25px;
+  height: 25px;
+  background: url(../images/user-icon.png) no-repeat;
+}
+.siderbar-list > li.drop:after {
+  content: "";
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border-width: 11px 6px;
+  border-style: solid;
+  border-color: #333333 transparent transparent transparent;
+}
+.siderbar-list > li.overview:before {
+  background-position: 0 -78px;
+}
+.siderbar-list > li.user-analysis:before {
+  background-position: -75px -78px;
+}
+.siderbar-list > li.cur > a, .siderbar-list > li:hover > a {
+  border-left-color: #1463ce;
+  color: #1463ce;
+}
+.siderbar-list > li.cur.overview:before, .siderbar-list > li:hover.overview:before {
+  background-position: 0 -113px;
+}
+.siderbar-list > li.cur.user-analysis:before, .siderbar-list > li:hover.user-analysis:before {
+  background-position: -75px -113px;
+}
+.siderbar-list > li.cur.drop:after {
+  top: 15px;
+  border-color: transparent transparent #1463ce transparent;
+}
+
+.siderbar-drop-list a {
+  display: block;
+  padding-left: 65px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+}
+.siderbar-drop-list a:hover, .siderbar-drop-list a.cur {
+  color: #1463ce;
+}
+
+.data-box {
+  margin-top: 30px;
+}
+.data-box .data-box-title {
+  position: relative;
+  padding-left: 70px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  background: #d1d1d1;
+  text-align:left;
+}
+.data-box .data-box-title:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  width: 30px;
+  height: 30px;
+  background: url(../images/user-icon.png) no-repeat;
+}
+
+.key-indicator .data-box-title:before {
+  background-position: 0 -188px;
+}
+
+.cumulative .data-box-title:before {
+  background-position: -225px -188px;
+}
+
+.trend .data-box-title:before {
+  background-position: -150px -188px;
+}
+
+.distribution .data-box-title:before {
+  background-position: -75px -188px;
+}
+
+.historypaths .data-box-title:before {
+  background-position: -300px -188px;
+}
+
+.datatraffic .data-box-title:before {
+  background-position: -375px -188px;
+}
+
+.autoinsurance .data-box-title:before {
+  background-position: -450px -188px;
+}
+
+.drivingbehavior .data-box-title:before {
+  background-position: -525px -188px;
+}
+
+.userinfo-data {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  
+  
+}
+.userinfo-data .usda-row {
+  display: table-row;
+  
+}
+.userinfo-data .usda-cell {
+  position: relative;
+  display: table-cell;
+   padding: 15px; 
+  border: 1px solid #cdcdcd;
+  font-size: 24px;
+  text-align: center;
+}
+.userinfo-data .head {
+  font-size: 18px;
+  color: #666666;
+}
+.userinfo-data .us-arrow {
+  position: absolute;
+  bottom: 20px;
+  right: 15%;
+  padding-top: 30px;
+  width: 80px;
+  font-size: 14px;
+  background: url(../images/user-icon.png) no-repeat;
+}
+.userinfo-data .us-arrow.rise {
+  color: #64c119;
+  background-position: 35px -268px;
+}
+.userinfo-data .us-arrow.decline {
+  color: #ee0f0f;
+  background-position: -32px -268px;
+}
+
+.preferences {
+  overflow: hidden;
+  height: 50px;
+  cursor: pointer;
+}
+.preferences .preferences-box {
+  position: relative;
+  height: auto;
+  border-top: 0px solid #fafafa;
+}
+.preferences .preferences-head {
+  position: relative;
+  margin-top: 0px;
+  font-size: 18px;
+}
+/* .preferences .preferences-head::after {
+  content: "";
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border-width: 11px 6px;
+  border-style: solid;
+  border-color: #333333 transparent transparent transparent;
+} */
+.preferences .preferences-bodyer {
+  position: absolute;
+  top: 52px;
+  left: 0;
+  width: 100%;
+  font-size: 16px;
+  z-index: 999;
+}
+
+.preferences:hover  {
+  border-top-color: #1463ce;
+  background: #ffffff;
+  box-shadow: -3px 0 6px -3px rgba(0, 0, 0, 0.2), 0 0 3px -3px rgba(0, 0, 0, 0.2), 0 0px 3px -6px transparent, 3px 0 6px -3px rgba(0, 0, 0, 0.2);
+
+}
+/* 滑动显示选项条 */
+/*  .preferences:hover {
+ overflow: visible;
+}
+.preferences:hover .preferences-box {
+  border-top-color: #1463ce;
+  background: #ffffff;
+  box-shadow: -3px 0 6px -3px rgba(0, 0, 0, 0.2), 0 0 3px -3px rgba(0, 0, 0, 0.2), 0 0px 3px -6px transparent, 3px 0 6px -3px rgba(0, 0, 0, 0.2);
+  鍙宠竟闃村奖
+}
+.preferences:hover .preferences-bodyer {
+  background: #ffffff;
+  box-shadow: -3px 0 6px -3px rgba(0, 0, 0, 0.2), 0 0 3px -3px transparent, 0 3px 6px -3px rgba(0, 0, 0, 0.2), 3px 0 6px -3px rgba(0, 0, 0, 0.2);
+  鍙宠竟闃村奖
+}
+.preferences:hover .preferences-head {
+  color: #1463ce;
+}
+.preferences:hover .preferences-head::after {
+  border-color: #1463ce transparent transparent transparent;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.preferences.project .preferences-head, .preferences.activeusers .preferences-head {
+  padding: 0 70px 0 35px;
+}
+.preferences.project .preferences-head::after, .preferences.activeusers .preferences-head::after {
+  right: 35px;
+}
+.preferences.project .project-list li, .preferences.activeusers .project-list li {
+  padding: 0 30px 0 30px;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+}
+.preferences.project .project-list li:hover, .preferences.activeusers .project-list li:hover {
+  background: #f5f5f5;
+}
+.preferences.project .project-list li.cur, .preferences.activeusers .project-list li.cur {
+  color: #1463ce;
+}
+.preferences.area .preferences-head {
+  padding: 0 50px 0 25px;
+}
+.preferences.area .preferences-head::after {
+  right: 25px;
+}
+.preferences.area .area-list select {
+  display: block;
+  margin: 15px auto 0;
+  width: 150px;
+  height: 35px;
+  border-color: #e6e6e6;
+}
+.preferences.area .btn {
+  margin: 20px auto;
+}
+.preferences.area .btn a {
+  display: inline-block;
+  width: 60px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+}
+.btn.clearfix {
+    padding: 0 10px 0 30px;
+}
+.preferences.area .btn a.confirm {
+/*   margin-left: 10px; */
+  color: #ffffff;
+  background: #1463ce;
+}
+.preferences.area .btn a.cancel {
+  margin-left: 20px;
+  color: #333333;
+  background: #eeeeee;
+}
+.preferences.time .preferences-head {
+  padding: 0 40px 0 15px;
+}
+.preferences.time .preferences-head::after {
+  right: 15px;
+}
+.preferences.time .preferences-bodyer {
+ /*  width: 300px; */
+  width: 320px;
+}
+.preferences.time .time-list {
+  width: 100%;
+  padding: 0 10px;
+  font-size: 16px;
+}
+.preferences.time .time-list select {
+  margin-left: 8px;
+}
+.preferences.time .btn {
+
+ 
+}
+.preferences.time .btn a {
+  display: inline-block;
+  width: 70px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+}
+a.confirm.fl2 {
+    margin-right: 20px;
+}
+.preferences.time .btn a.confirm {
+  color: #ffffff;
+  background: #1463ce;
+}
+.preferences.time .btn a.cancel {
+  color: #333333;
+  background: #eeeeee;
+}
+
+.definition-user {
+  font-size: 18px;
+}
+.definition-user select {
+  margin-left: 45px;
+  height: 40px;
+}
+
+.user-datainfo {
+/*   margin-top: 95px; */
+  padding: 0 45px;
+  font-size: 18px;
+}
+.user-datainfo .avatar1 {
+  width: 160px;
+}
+.user-datainfo .avatar1 .touxiang {
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+
+}
+.user-datainfo .avatar1 .touxiang img {
+  width: 160px;
+  height: 160px;
+}
+.user-datainfo .avatar1 .location {
+  margin-top: 15px;
+  text-align: center;
+  background: url(../images/user-icon.png) no-repeat 15px -343px;
+}
+.user-datainfo .avatar1 .location p {
+  line-height: 30px;
+}
+.user-datainfo .user-data {
+  margin-left: 235px;
+  padding: 40px;
+  border: 2px dashed #bfbfbf;
+  border-radius: 20px;
+
+}
+.user-datainfo .user-data p {
+/*   line-height: 40px; */
+}
+.user-datainfo .device-info {
+  border: 2px dashed #bfbfbf;
+/*   margin-top: 40px; */
+   padding: 20px;
+}
+.user-datainfo .device-info p {
+/*   line-height: 40px; */
+}
+.device-info div label
+{
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
